@@ -37,7 +37,6 @@ solver(abdominales(x) < 5)
 disp('Define la variable simbolico x')
 
 espera
-
 diagrama([-20 5],[0,0],'k+-',"ancho de linea",3,"tamaño de marcador",12)
 parcela([0 0],[-20 30], 'k-', "ancho de linea",3)
 
