@@ -19,7 +19,7 @@ x=3*r
 y=2*r2
 % función plotear
 a=x+y
-%función para determinar valor mínino
+%función para determinar valor mínimo
 rest=fminbnd(ar,0,1);
 %Dibujar x.y
 plot(x, y)
