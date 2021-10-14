@@ -9,6 +9,7 @@
 % Notes                  :Requiere Octave
 %                        :https://octaveintro.readthedocs.io/en/latest/index.html
 % limpiar variables
+
 clear
 
 % Ejemplo mínimo de material para envase cilindrico
@@ -28,4 +29,5 @@ a=x+y
 
 rest=fminbnd(ar,0,1);
 %Dibujar x.y
+
 plot(x, y)
