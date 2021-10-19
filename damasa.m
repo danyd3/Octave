@@ -4,7 +4,7 @@
 %                         hacer el cerco, incluendo la valla. Encuentra las dimenciones del corral de área máxima que puede construir.
 % Author                 :Sabrina Andrea Hernandez (Gitsabrinax), Daniel Alberto De Jesús Dominguez (danyd3), Jose Manuel Arce Salvador (JoseManuelArceSal)
 % Date                   :20211013
-% Version                :1
+% Version                :2
 % Usage                  :
 % Notes                  :Requiere Octave
 %                        :https://octaveintro.readthedocs.io/en/latest/index.html
