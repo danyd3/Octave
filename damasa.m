@@ -12,10 +12,13 @@
 
 clear 
 %Dimensiones del corral con área maxima  
- 
+pkg load symbolic 
+syms x y 
 %Rango de la base y de la altura  
-x=[0:1:40]; 
-y=[0:1:60]; 
+x=[0:1:30.98386677]; 
+y=[0:1:7.745966692]; 
 %funcion a plotear para obtener el area maxima   
 A=(480*x/3-8*x.^2/3) 
-plot(A)
+plot(A) 
+%Titulo 
+title(['Maximo material']);
