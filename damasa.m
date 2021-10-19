@@ -10,14 +10,14 @@
 %                        :https://octaveintro.readthedocs.io/en/latest/index.html
 % limpiar variables
 
-clear 
-%Dimensiones del corral con área maxima  
-pkg load symbolic 
-syms x y 
-%Rango de la base y de la altura  
-x=[0:1:60]; 
-y=[0:1:40]; 
-%funcion a plotear para obtener el area maxima   
-A=(480*x/3-8*x.^2/3) 
-plot(A) 
+%Dimensiones del corral con área máxima
+
+%Rango de la base y de la altura 
+x=[0 : 1 : 60];
+
+%Función a plotear para obtener el área máxima  
+a=(480 * x / 3 - 8 * x.^2 / 3)
+
+%Funcion a plotear
+plot(a)
 
