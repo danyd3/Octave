@@ -10,24 +10,12 @@
 %                        :https://octaveintro.readthedocs.io/en/latest/index.html
 % limpiar variables
 
-clear
-
-% Ejemplo mínimo de material para envase cilindrico
-
-% Rango de 0.0.1..59.4 i:0.0
-
-r=0:0.1:59.4;
-r2=0:0.1:60.60;
-% Valor de la funcion
-
-x=3*r
-y=2*r2
-% función plotear
-
-a=x+y
-%función para determinar valor mínino
-
-rest=fminbnd(ar,0,1);
-%Dibujar x.y
-
-plot(x, y)
+clear 
+%Dimensiones del corral con área maxima  
+ 
+%Rango de la base y de la altura  
+x=[0:1:40]; 
+y=[0:1:60]; 
+%funcion a plotear para obtener el area maxima   
+A=(480*x/3-8*x.^2/3) 
+plot(A)
