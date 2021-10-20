@@ -13,10 +13,7 @@
 
 %Rango de la base y de la altura 
 x=[0 : 1 : 60];
-
 %Función a plotear para obtener el área máxima  
-a=(480 * x / 3 - 8 * x.^2 / 3)
-
+a=((240-(2*x))/3)
 %Funcion a plotear
 plot(a)
-
